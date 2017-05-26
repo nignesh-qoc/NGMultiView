@@ -1,0 +1,6 @@
+framework module Pods_NGMultiView_Tests {
+  umbrella header "Pods-NGMultiView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

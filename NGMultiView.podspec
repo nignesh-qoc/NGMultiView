@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NGMultiView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NGMultiView.'
+  s.summary          = 'Test Pod for NGMultiView.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/nignesh.patel@qochealth.com/NGMultiView'
+  s.homepage         = 'https://github.com/nignesh-qoc/NGMultiView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'nignesh.patel@qochealth.com' => 'nignesh.patel@qochealth.com' }
-  s.source           = { :git => 'https://github.com/nignesh.patel@qochealth.com/NGMultiView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/nignesh-qoc/NGMultiView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

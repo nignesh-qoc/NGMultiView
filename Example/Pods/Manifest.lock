@@ -1,0 +1,16 @@
+PODS:
+  - NGMultiView (0.1.0)
+
+DEPENDENCIES:
+  - NGMultiView (from `../`)
+
+EXTERNAL SOURCES:
+  NGMultiView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NGMultiView: 9a6f8b0964052aaede854e9293a815d1a3a1a062
+
+PODFILE CHECKSUM: 4f88ca3e3022cc3261830247702b36baed4eca21
+
+COCOAPODS: 1.2.1

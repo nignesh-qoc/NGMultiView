@@ -1,0 +1,6 @@
+framework module NGMultiView {
+  umbrella header "NGMultiView-umbrella.h"
+
+  export *
+  module * { export * }
+}

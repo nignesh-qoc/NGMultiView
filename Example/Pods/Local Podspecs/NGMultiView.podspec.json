@@ -1,0 +1,22 @@
+{
+  "name": "NGMultiView",
+  "version": "0.1.0",
+  "summary": "A short description of NGMultiView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nignesh.patel@qochealth.com/NGMultiView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nignesh.patel@qochealth.com": "nignesh.patel@qochealth.com"
+  },
+  "source": {
+    "git": "https://github.com/nignesh.patel@qochealth.com/NGMultiView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NGMultiView/Classes/**/*"
+}
