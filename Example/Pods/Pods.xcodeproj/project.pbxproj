@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19FDAA4FC22AA4BDE654CA797C7E44C5 /* NGMultiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF5EBB1E8728C1C0176F6068FCE2DCC /* NGMultiView.swift */; };
 		1FD67C7B628A7209EBCCB6D3E803C5DB /* NGMultiView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3D4D66F706CDF28CB158705C0917E0 /* NGMultiView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EBC7BCBE0CEE95D11DB55A0B7571C60 /* Pods-NGMultiView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8FCDCF698177DAE38C75F9ACFC44FE /* Pods-NGMultiView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E192238C23F6CF7E49B22121AB07E83 /* NGMultiView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E38FE63982D294D8F5E9AC90CE2AF368 /* NGMultiView-dummy.m */; };
 		5FAEFF6343106D6AE905B438678A3330 /* Pods-NGMultiView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B619861ED3DA1C72A6EA9AF7953B09AB /* Pods-NGMultiView_Tests-dummy.m */; };
 		6A6ABBA6CAE351EA5A1F16D8893FB485 /* Pods-NGMultiView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5854928891BE86847FED33F8584D043 /* Pods-NGMultiView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F8B4CBFB64E2A69AF39F7739A1DF197 /* NGMultiView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E38FE63982D294D8F5E9AC90CE2AF368 /* NGMultiView-dummy.m */; };
 		B1C1C9E880AB63F98E896217EA36B753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		BC1173E6E03D067EDF0F9A2271728791 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D3986B7418FE392DA30D16DB94687703 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F608E1F7AC2FE9B959FF14D77A919BA0 /* Pods-NGMultiView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A393FB10BFE044738001FB18E43D26F0 /* Pods-NGMultiView_Example-dummy.m */; };
-		FB139883097AF0FCC3DB8F1BBF2D902C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427816CA0D015C2EF0A8ED1AF07DE38 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0427816CA0D015C2EF0A8ED1AF07DE38 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		117D2D7DD87F324DD4158CD07A3FF296 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16B807FC79BE42EEB71FD5AA84EBA846 /* NGMultiView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NGMultiView.framework; path = NGMultiView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A2991ACF8AD0BA764FB9FE07942BDF7 /* Pods-NGMultiView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NGMultiView_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		E38FE63982D294D8F5E9AC90CE2AF368 /* NGMultiView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NGMultiView-dummy.m"; sourceTree = "<group>"; };
 		E882DE352C1704CC1034EFC5FF65FA4F /* NGMultiView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NGMultiView.xcconfig; sourceTree = "<group>"; };
 		FF8FCDCF698177DAE38C75F9ACFC44FE /* Pods-NGMultiView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NGMultiView_Example-umbrella.h"; sourceTree = "<group>"; };
+		FFF5EBB1E8728C1C0176F6068FCE2DCC /* NGMultiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NGMultiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2287AA79C92BCD626919B91B71F26F7D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FFF5EBB1E8728C1C0176F6068FCE2DCC /* NGMultiView.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		2C90F2E760DF5AB910A25B5B2981E1E7 /* Pods-NGMultiView_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,15 +167,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A8A43CE2460DA738CC198A32483987D7 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0427816CA0D015C2EF0A8ED1AF07DE38 /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		A9CC3D7ADF0B5FD153D92E91610C3C81 /* NGMultiView */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,7 +180,7 @@
 		B89952F3D072CF5745FA7A70CBC291C3 /* NGMultiView */ = {
 			isa = PBXGroup;
 			children = (
-				A8A43CE2460DA738CC198A32483987D7 /* Classes */,
+				2287AA79C92BCD626919B91B71F26F7D /* Classes */,
 			);
 			name = NGMultiView;
 			path = NGMultiView;
@@ -258,7 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62F855DBD19CC9C1C0D6C2701487A700 /* Build configuration list for PBXNativeTarget "NGMultiView" */;
 			buildPhases = (
-				CBF8BBC6F2EFD1BBC63193185AA03B36 /* Sources */,
+				AD742222C99E9F31017476F99CE55FE1 /* Sources */,
 				1C65C02DB1531BEA58EB328D059AE213 /* Frameworks */,
 				FB62A1A5F5FBBCCADE0B6A35C456567A /* Headers */,
 			);
@@ -351,12 +351,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBF8BBC6F2EFD1BBC63193185AA03B36 /* Sources */ = {
+		AD742222C99E9F31017476F99CE55FE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E192238C23F6CF7E49B22121AB07E83 /* NGMultiView-dummy.m in Sources */,
-				FB139883097AF0FCC3DB8F1BBF2D902C /* ReplaceMe.swift in Sources */,
+				9F8B4CBFB64E2A69AF39F7739A1DF197 /* NGMultiView-dummy.m in Sources */,
+				19FDAA4FC22AA4BDE654CA797C7E44C5 /* NGMultiView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

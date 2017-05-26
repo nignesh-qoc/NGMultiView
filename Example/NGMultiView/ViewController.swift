@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import NGMultiView
 
-class ViewController: UIViewController {
+class ViewController: NGMultiView {
 
     override func viewDidLoad() {
         super.viewDidLoad()
