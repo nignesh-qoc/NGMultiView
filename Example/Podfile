@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NGMultiView_Example' do
+  pod 'NGMultiView', :path => '../'
+
+  target 'NGMultiView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
